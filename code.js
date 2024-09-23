@@ -5,5 +5,5 @@ function binarySearch(list, element) {
     return -1;
 }
 let left = 0;
-let right = list. length -1;
+let right = (list.length-1);
 
