@@ -4,7 +4,7 @@ function binarySearch(list,element){
     }
     let left = 0; //first pointer
     let right = list.length = -1; // second pointer
-    let mid = ((left+right)/2);// middle index
+    let mid = Math.floor((left+right)/2);// middle index
 
     while (left<=right){
         if (list[mid] === element) {
