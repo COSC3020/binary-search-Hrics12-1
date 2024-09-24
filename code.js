@@ -1,5 +1,5 @@
 function binarySearch(list,element){
-    if(list.length === 0){
+    if(list.length < 0){
         return -1;
     }
     let left = 0; //first pointer
